@@ -12,6 +12,6 @@ myqr1.save("myqr1.png")
 
 
 # Decode QR code
-#What is this
+#What is this...
 MYQR = decode(Image.open("myqr.png"))
 print(MYQR[0].data.decode("ascii"))
